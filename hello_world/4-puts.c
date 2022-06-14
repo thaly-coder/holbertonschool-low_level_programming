@@ -1,5 +1,6 @@
 #include <stdio.h>
-/* always end whit the value 0 */
+/* main - entry point for the 
+ * execution of a program */
 
 int main(void)
 
