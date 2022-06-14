@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /* always end whit the value 0 */
 
 int main(void)
