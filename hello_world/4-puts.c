@@ -1,6 +1,9 @@
 #include <stdio.h>
-/* main - entry point for the 
- * execution of a program */
+/**
+ * main-entry point
+ *
+ * return:always 0 (succes)
+ */
 
 int main(void)
 
