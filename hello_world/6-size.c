@@ -21,6 +21,6 @@ printf("Size of long int: %lubyte\n",(unsigned long)sizeof(b));
 printf("Size of long long int: %lubyte\n",(unsigned long)sizeof(c));
 printf("Size of float: %lubyte\n",(unsigned long)sizeof(f));
 
-return (0)
+return (0);
 
 }
