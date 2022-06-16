@@ -1,20 +1,20 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: 0 (Success)
- */
+*main - Entry point
+*
+*Return: 0 (Success)
+*/
 
 int main(void)
 {
-char j;
+	char j;
 
-for (j = 0; j >= 9; j++)
-{
-putchar(j);
-}
-{
-putchar('\n');
-}	
+	for (j = '0'; j <= '9'; j++)
+	{
+		putchar(j);
+	}
+	{
+		putchar('\n');
+	}	
 return (0);
 }
