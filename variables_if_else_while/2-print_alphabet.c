@@ -13,7 +13,7 @@ char ss;
 for (ss = 'a'; ss <= 'z'; ss++)
 
 putchar(ss);
-
+putchar('\n');
 
 return (0);
 }
