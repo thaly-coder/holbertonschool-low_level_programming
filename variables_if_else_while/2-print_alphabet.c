@@ -12,8 +12,7 @@ char ss;
 
 for(ss ='a'; ss <='z'; ss++){
 
-putchar(ss);
-putchar(' '); 
+putchar(ss); 
 
 }
 
