@@ -7,9 +7,11 @@
 
 int main(void)
 {
-char ss;
-q = 'q'
-r = 'e'	
+char ss; e; q;
+
+q = 'q';
+e = 'e';
+
 for (ss = 'a'; ss >= 'z'; ss++)
 {
 if (ss !='q' && ss !='e')
