@@ -10,9 +10,9 @@ int main(void)
 
 char ss;
 
-for(ss ='a'; ss <='z'; ss++){
+for(ss = 'a'; ss <= 'z'; ss++) {
 
-putchar(ss); 
+putchar(ss);
 
 }
 
