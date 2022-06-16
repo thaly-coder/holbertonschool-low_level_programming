@@ -17,10 +17,11 @@ putchar(ss);
 }
 for (ss = 'A'; ss <= 'Z'; ss++)
 {
-putchar(ss);
-putchar('\n');
+putchar(ss); 
 }
-
+{
+putchar('\n')
+}	
 return (0);
 
 }
