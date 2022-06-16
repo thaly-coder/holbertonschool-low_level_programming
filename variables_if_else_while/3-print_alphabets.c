@@ -20,7 +20,7 @@ for (ss = 'A'; ss <= 'Z'; ss++)
 putchar(ss); 
 }
 {
-putchar('\n')
+putchar('\n');
 }	
 return (0);
 
