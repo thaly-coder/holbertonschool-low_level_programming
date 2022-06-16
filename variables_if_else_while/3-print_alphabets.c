@@ -17,7 +17,8 @@ putchar(ss);
 }
 for (ss = 'A'; ss <= 'Z'; ss++)
 {
-putchar(ss);	
+putchar(ss);
+putchar('\n');
 }
 
 return (0);
