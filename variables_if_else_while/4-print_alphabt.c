@@ -7,21 +7,20 @@
 
 int main(void)
 {
-char ss, e, q;
+	char ss, e, q;
 
-e = 'e';
-q = 'q';
+	e = 'e';
+	q = 'q';
 
-for (ss = 'a'; ss <= 'z'; ss++)
-{
-if (ss != e && ss != q)
-{
-putchar(ss);
-}	
-{
-putchar('\n');
-}	
-}
+	for (ss = 'a'; ss <= 'z'; ss++)
+	{
+		
+	if (ss != e && ss != q)
+	{	
+	putchar(ss);
+	}
+	}
+	putchar('\n');
 
-return (0);
+	return (0);
 }
