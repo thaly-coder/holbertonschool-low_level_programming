@@ -9,12 +9,12 @@ int main(void)
 {
 char ss, e, q;
 
-q = 'q';
 e = 'e';
+q = 'q';
 
-for (ss = 'a'; ss >= 'z'; ss++)
+for (ss = 'a'; ss <= 'z'; ss++)
 {
-if (ss !='q' && ss !='e')
+if (ss != e && ss != q)
 {
 putchar(ss);
 }	
