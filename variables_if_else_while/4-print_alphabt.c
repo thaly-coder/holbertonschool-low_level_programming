@@ -18,6 +18,10 @@ if (ss != e && ss != q)
 {
 putchar(ss);
 }	
+{
+putchar('\n');
+}	
 }
+
 return (0);
 }
