@@ -14,9 +14,9 @@ int main(void)
 
 	for (ss = 'a'; ss <= 'z'; ss++)
 	{
-		
+
 	if (ss != e && ss != q)
-	{	
+	{
 	putchar(ss);
 	}
 	}
