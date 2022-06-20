@@ -14,4 +14,6 @@ int main(void)
 	for (d = 0; d < 9; d++)
 
 	_putchar(x[d]);
+
+	return (0);
 }
