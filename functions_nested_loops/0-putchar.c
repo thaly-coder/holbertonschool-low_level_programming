@@ -2,7 +2,7 @@
 /**
  * main- Entry point
  * description: program that prints _putchar, followed by a new line.
- * Return: 0
+ * Return: Nothing
  */
 
 int main(void)
@@ -14,7 +14,4 @@ int main(void)
 	for (d = 0; d < 9; d++)
 
 	_putchar(x[d]);
-	
-	return (0);
-
 }
