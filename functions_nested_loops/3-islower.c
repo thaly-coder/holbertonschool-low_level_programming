@@ -1,23 +1,22 @@
 #include "main.h"
 
 /**
- *Prototype: int _islower(int c)
- *Descripcion:  function that checks for lowercase character
- *Return: 1 if c is lowercase
- *Return: 0 otherwise
+ * _islower -  function that checks for lowercase character
+ *@c: input character
+ *Return: 1 if c is lowercase or 0 if is uppercase
  */
 
- int _islower(int c)
+int _islower(int c)
 
 {
-	char x
-	int low = 0;
+	char x;
+	int minusc = 0;
 
-	for (x = 'a'; x = 'z'; x++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
 		if (x == c)
-		low = 1;
+		minusc = 1;
 	}
 
-	return(low);
-}	
+	return (minusc);
+}
