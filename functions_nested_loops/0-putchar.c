@@ -11,7 +11,7 @@ int main(void)
 	char x[9] = "_putchar\n";
 	int d;
 
-	for (d = 0; d < 10; d++)
+	for (d = 0; d < 9; d++)
 
 		_putchar(x[d]);
 
