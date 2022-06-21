@@ -8,13 +8,13 @@
 int main(void)
 
 {
-	char x[9] = "_putchar";
+	char x[9] = "_putchar\n";
 	int d;
 
 	for (d = 0; d < 10; d++)
 
 		_putchar(x[d]);
-	_putchar('\n');	
+
 
 	return (0);
 }
