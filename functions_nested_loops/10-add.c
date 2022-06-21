@@ -3,7 +3,7 @@
 /**
  *add -function that adds two integers and returns the result
  *@x: integer
- *@y: integer
+ *@z: integer
   *Return: vaulue x + z
  */
 
