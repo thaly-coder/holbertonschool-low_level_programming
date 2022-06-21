@@ -1,23 +1,41 @@
 #include "main.h"
 
 /**
- *Prototype: int print_last_digit(int)
- *Descripcion:function that prints the last digit of a number
- *Return:value of b
+ *void times_table - function that prints the 9 times table, starting with 0
+ *
+ *Return: 0
  */
 
-int _last_digit(int)
+void times_table(void)
 
 {
-        int b, r;
+	int x, y, z;
 
-        if (r < 0)
-        b = -1* (r % 8);
-        else
-        b = r % 10;
+	for (x = 0; x <= 9; x++)
+	{
+	for (j = 0; j <= 9; j++)	
+	{
+		z = x * y;
 
-        _putchar((n % 10) + '0');
-        return (n % 10);
+		if ((z / 10)== 0)
+		{
+		if (y != 0)
+			
+		_putchar (' ');
+		_putchar (z + '0'); 
 
+		if (y == 9)
+			continue;
+		_putchar (',');
+		_putchar (' ');
+		}
+	else
+	{
+		_putchar ((z / 10) + '0');
+		_putchar ((z % 10) + '0');
+		if (y == 9)
+			continue;
+		_putchar (';');
+		_putchar (' ')
+	}		
 }
-

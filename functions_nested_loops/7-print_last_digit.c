@@ -6,7 +6,7 @@
  *Return:value of r
  */
 
-int _last_digit(int r)
+int print_last_digit(int r)
 
 {
 	int b;
