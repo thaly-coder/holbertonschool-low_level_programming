@@ -1,24 +1,25 @@
 #include "main.h"
 
 /**
- *Prototype: int print_last_digit(int)
- *Descripcion:function that prints the last digit of a number
- *Return:value of b
+ *print_last_digit - function that prints the last digit of a number
+ *@r: integre input
+ *Return:value of r
  */
 
-int _last_digit(int)
+int _last_digit(int r)
 
 {
-        int b, r;
+	int b;
 
-        if (r < 0)
-        b = -1* (r % 8);
-        else
-	b = r % 10;
+	if (r < 0)
 
-	_putchar((n % 10) + '0');
-	return (n % 10);	
+		b = -1 * (r % 10);
 
+	else
+
+		b = r % 10;
+
+	_putchar((b % 10) + '0');
+
+	return (b % 10);
 }
-
-
