@@ -1,39 +1,35 @@
 #include "main.h"
 
 /**
- *Prototype: Prototype: int print_sign(int n)
- *Descripcion: function that prints the sign of a number
- *Return: Returns 1 and prints + if n is greater than zero
- *Return: Returns 0 and prints 0 if n is zero
- *Return: -1 and prints - if n is less than zero
+ *print_sign - function that prints the sign of a number
+ *@n: input number
+ *Return: 1 if n is positive, 0 if n is 0 or -1 if n is negative
  */
 
 int print_sign(int n)
 
 {
-        int num
-        
-	if (n > 0) 
-	{	
+	int num;
+
+
+	if (n > 0)
+
+	{
 	num = 1;
-	_purchar('+');
+	_putchar('+');
 	}
 
 	else if (n == 0)
-	{	
+	{
 	num = 0;
-        _purchar('0');
+	_putchar('0');
 	}
-        
-	else 
+	else
 	{
 	num = -1;
-	_putchar('-');	
+	_putchar('-');
+	}
+	return (num);
 
-        }
-       
-
-        return(num);
 
 }
-
