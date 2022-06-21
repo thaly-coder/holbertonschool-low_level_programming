@@ -1,22 +1,18 @@
 #include "main.h"
 
 /**
- *Prototype: int _abs(int)
- *Descripcion: function that computes the absolute value of an integer
+ *_abs -  function that computes the absolute value of an integer
+ *@b: integre input
  *Return:value of b
  */
 
-int _abs(int)
+int _abs(int b)
 
 {
-        int b
 
-        if (b >= 0)
-        return (b);
+	if (b >= 0)
+	return (b);
 
 	else
-	return(r* -1);
-
+	return (b * -1);
 }
-
-
