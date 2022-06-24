@@ -16,12 +16,12 @@ void puts_half(char *str)
 	if (x % 2 == 0)
 		z = x / 2;
 
-	else 
+	else
 		z = (x + 1) / 2;
-	
+
 	for (y = z; y < x; y++)
 		_putchar(str[y]);
 
 	_putchar('\n');
 
-}	
+}
