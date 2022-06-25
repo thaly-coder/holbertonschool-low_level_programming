@@ -3,7 +3,7 @@
 /**
  *_strcat - function that concatenates two string
  *@src: a string
- *@dest: a string 
+ *@dest: a string
  *Return: pointer to the *dest + *src union
  */
 
