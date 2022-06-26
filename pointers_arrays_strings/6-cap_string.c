@@ -24,8 +24,8 @@ char *cap_string(char *s)
 }
 
 /**
- * check_seperators(char c)
- * ,, ;, ., !, ?, \", (, ), {, and }
+ * check_seperators - word separator
+ *  * ,, ;, ., !, ?, \", (, ), {, and }
  * @c: input character
  * Return: 1 if seperator, 0 otherwise
  */
