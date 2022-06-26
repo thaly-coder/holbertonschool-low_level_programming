@@ -25,7 +25,7 @@ char *cap_string(char *s)
 
 /**
  * check_seperators(char c)
- * ,, ;, ., !, ?, ", (, ), {, and }
+ * ,, ;, ., !, ?, \", (, ), {, and }
  * @c: input character
  * Return: 1 if seperator, 0 otherwise
  */
@@ -33,7 +33,7 @@ char *cap_string(char *s)
 int check_seperators(char c)
 {
 	int i = 0;
-	char seperators[13] = {' ', '\t', '\n', ',' , ';','.','?',
+	char seperators[13] = {' ', '\t', '\n',  ',', ';','.','?',
 				'!', '"', '(', ')', '{', '}' };
 
 	for (; i < 13; i++)
