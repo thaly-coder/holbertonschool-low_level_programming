@@ -24,5 +24,5 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (; x < n ; x++)
 
-	return (dest);
+	return (*dest);
 }
