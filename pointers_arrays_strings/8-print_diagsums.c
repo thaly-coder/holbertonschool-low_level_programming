@@ -10,12 +10,16 @@ void print_diagsums(int *a, int size)
 
 {
 	int x = 0, y = 0;
-	int i = 0;
 
-	for (i = 0; i < size; i++)
+	for (int i = 0; i < size; i++)
 	{
-		x = a[i, i];
-		y = a[i, size - i - 1];
+		(int j = 0; j < size; j++)
+			
+			if (i == j)
+			x += a[i,j];
+
+			if ((i + j) == (size - 1))
+			y = a[i,j];
 	}
-	x + y;
+	
 }
