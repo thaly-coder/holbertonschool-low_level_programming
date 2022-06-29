@@ -11,14 +11,15 @@
 
 char *_strstr(char *haystack, char *needle)
 
-{{
+{
+	char *str2 = haystack, *str1 = needle;
+
 	for ( ; *haystack; ++haystack)
 	{
-		char str1 = needle;
 		for (str2 = haystack; *str1==*str2 && *str1; ++str1; ++str2);
 
 		if (*srt1 == '\0')
 			return (haystack);
 	}	
 	return (NULL);
-}}
+}
