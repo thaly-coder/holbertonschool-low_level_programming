@@ -16,7 +16,7 @@ int _isdigit(int c)
 	{
 		if (x == c)
 		{
-		i = 1 ;
+		i = 1;
 		break;
 		}
 	}
